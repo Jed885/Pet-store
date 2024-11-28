@@ -1,0 +1,172 @@
+
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}/* Floating button styling */
+.floating-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    animation: float 3s ease-in-out infinite;
+}
+
+.floating-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Floating animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.jumbotron {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ff9933;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff9933;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #0056b3;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+/* Header Section */
+header {
+    background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+header h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+header p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #ff6b6b;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #e63946;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-title {
+    font-size: 1.2em;
+    color: #0056b3;
+}
+.card-text {
+    color: #555;
+}
+
+/* Contact Form */
+form .form-group label {
+    font-weight: 600;
+}
+form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+form .btn {
+    background-color: #0056b3;
+    color: #fff;
+}
+form .btn:hover {
+    background-color: #003d7d;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+footer .social-icons a {
+    color: #ffd700;
+    font-size: 1.2em;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+footer .social-icons a:hover {
+    color: #ff6b6b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    header p {
+        font-size: 1.1em;
+    }
+}
