@@ -1,1 +1,1 @@
-Sample websites
+Sample website
